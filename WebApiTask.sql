@@ -1,0 +1,10 @@
+drop table "WEBAPI"."Categories" cascade constraints PURGE;
+drop table "WEBAPI"."CategoryAssignments" cascade constraints PURGE;
+drop table "WEBAPI"."RoleClaims" cascade constraints PURGE;
+drop table "WEBAPI"."Tasks" cascade constraints PURGE;
+drop table "WEBAPI"."UserClaims" cascade constraints PURGE;
+drop table "WEBAPI"."UserLogins" cascade constraints PURGE;
+drop table "WEBAPI"."UserRoles" cascade constraints PURGE;
+drop table "WEBAPI"."Users" cascade constraints PURGE;
+drop table "WEBAPI"."UserTokens" cascade constraints PURGE;
+drop table "WEBAPI"."Roles" cascade constraints PURGE;
